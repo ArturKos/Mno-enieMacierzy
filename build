@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -lgomp -fopenmp -O3 mmul.pluto.orgin.c -lm  -o mmul.p && ./mmul.p 2 
